@@ -13,10 +13,9 @@ jobs:
       - python/save-cache
       - run:
           command: python ./chatbot_test.py
-          name: ChatBot Test
+          name: Chatbot Test
 
 workflows:
   main:
     jobs:
       - build-and-test
-      
